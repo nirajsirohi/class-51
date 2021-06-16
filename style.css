@@ -1,0 +1,39 @@
+h1 {
+    color : red;
+}
+body {
+    background-color: #f12543;
+    border:aqua;
+    border-style: dashed;
+    margin-top: 0mm;
+}
+.item {
+    border-style: solid;
+    border-color: blue;
+    color:chartreuse;
+}
+
+
+
+/* *{
+    border : solid;
+} */
+
+.header{
+    background-color: cadetblue;
+    display : flex;
+    justify-content: space-between;
+
+}
+.grid{
+    display :flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.footer{
+    display :flex;
+    justify-self: flex-end;
+}
+p,h2{
+    text-align:center;
+}
